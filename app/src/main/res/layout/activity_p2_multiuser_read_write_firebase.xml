@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".P2MultiuserReadWriteFirebase">
+    <EditText android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/enterid"
+        android:ems="10" android:hint="Enter id"/>
+
+    <EditText android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/enterphnum"
+        android:ems="10" android:hint="Enter Phone Number"/>
+
+    <EditText android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/entersection"
+        android:ems="10" android:hint="Enter section"/>
+
+    <EditText android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/enterindex"
+        android:ems="10" android:hint="Enter Index"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/button2"
+        android:text="save"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/save"
+        android:text="Read" android:onClick="doRead" android:layout_gravity="center"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/delete"
+    android:text="Delete" android:onClick="doDelete" android:layout_gravity="center"/>
+    <ListView android:layout_height="match_parent" android:layout_width="match_parent" android:id="@+id/lv"> </ListView>
+</LinearLayout>

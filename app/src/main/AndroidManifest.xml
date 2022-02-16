@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.cse227_2021_firebase">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CSE227_2021_FireBase">
+        <activity
+            android:name=".P3Storage"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".P2MultiuserReadWriteFirebase"
+            android:exported="true" />
+        <activity
+            android:name=".P2RegisterActivity"
+            android:exported="true" />
+        <activity
+            android:name=".P2Login"
+            android:exported="true">
+
+        </activity>
+        <activity
+            android:name=".P1SimpleReadWriteFirebase"
+            android:exported="true" />
+    </application>
+
+</manifest>
